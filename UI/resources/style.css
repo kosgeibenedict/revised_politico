@@ -293,3 +293,37 @@ h1{
     font-size: 12px;
     color: #4CAF50;
 }
+.dashboard-container{
+  display: flex;
+}
+.container-content{
+  flex: 1;
+}
+.voterss{
+  margin: 10px;
+  border-radius: 2px;
+  padding: 20px;
+  background: #fff;
+  color: #555;
+}
+.tables{
+  color: #555;
+  padding: 16px; 
+  margin: 2px; 
+  align-content: center;
+}
+table td{
+  padding: 12px;
+  border-bottom: 1px solid #555;
+}
+.cast{
+  text-align: center;
+}
+.button-primary a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+.vote-img{
+  border-radius: 5px;
+}
