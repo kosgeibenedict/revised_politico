@@ -1,0 +1,295 @@
+/* Top Navigation styles*/
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:linear-gradient(to right, #ff5722, #ff9800); 
+    color:#fff;
+  }
+  .wrapper{ 
+    margin-top: 150px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+/*End of Top dav*/
+/*Homepage styles*/
+ .row{
+  margin:3px;
+  width: 100%;
+  height: 100%;
+  padding: 6px;
+  background: inherit;
+}
+.infor-pad{
+  width: 48%;
+  float: left; 
+  color: #000;
+  height: 550px;
+  margin: 2%;
+  padding: 10px;
+  border-radius: 3%;
+}
+.signup{
+  width: 30%;
+  float: right;
+  background: #fff;
+  color: #000;
+  height: 550px;
+  margin: 2%;
+  padding: 10px;
+  border-radius: 3%;
+}
+@media screen and (max-width: 600px) {
+  body{
+    width: 100%;
+  }
+  .infor-pad{
+    margin: 1%;
+    width: 90%;
+    align-content: center;
+  }
+  .signup{
+    margin: 1%;
+    width: 90%;
+    align-content: center;
+  }
+  .countdown{
+    margin: 1%;
+    width: 90%;
+    align-content: center;
+    border-radius: 8px;
+  }
+}
+.infor-pad h1{
+  text-align: center;
+}
+.float-right{
+  float: right;
+}
+/*End of Homepage*/
+/*Toggle CSS*/
+.toggler{
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+.hidden{
+  display: none;
+}
+.countdown{
+  padding: 50px;
+  margin: 10%;
+  width: 50%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+  color:#4CAF50;
+  background: #fff;
+  border-radius: 0 8px 8px 0;
+}
+.left-hand{
+    float: left;
+    width: 45%; 
+    padding: 30px 30px 30px 150px;
+    text-align: center; 
+} 
+@media screen and (max-width: 600px) {
+    .wrapper .left-hand{
+        width: 100%;
+        padding: 10px;
+    }
+    .wrapper .right-hand{ 
+        padding:13px;
+        margin: 4%;    }
+    .wrapper .right-hand .register-form{
+        width: 100%;
+        padding: 1px;
+        padding-left: 25px;
+    }
+    .button-primary{
+        width: 80%; 
+
+    }
+    .form-group .button-primary{
+        width: 80%;
+        margin: 0;
+    } 
+     
+    .wrapper{
+        padding: 0px;
+        margin-top: 1px;
+    }
+
+
+}
+ 
+@media screen and (max-width: 1200px) {
+    .wrapper .left-hand{
+        width: 100%;
+        padding: 10px;
+    }
+    .button-primary{
+        width: 80%; 
+
+    }
+    .form-group .button-primary{
+        width: 80%;
+        margin: 0;
+    }
+    .wrapper .right-hand{
+        width: 100%;
+        padding:10px; 
+    }
+    .right-hand .form-group{
+        margin: 12px;
+    }
+    .wrapper{
+        padding: 10px;
+        margin-top: 1px;
+    }
+    .right-hand .register-form{
+        padding:100px;
+        background: #f8f8f8;
+        border-top-left-radius: 10% 50%;
+        border-bottom-left-radius: 10% 50%;
+        margin: 1%;
+        font-size: 18px;
+    }
+
+
+}
+.wrapper h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px; 
+    color: #555;
+}
+.button-primary{
+    border: none;
+    height: 40px;
+    text-align: center;
+    width: 200px;
+    border-radius: 8px;
+    margin:5px;
+}
+.button-primary:hover{
+    background: #000;
+    color: #fff;
+}
+.right-hand{
+    float:right;
+    width: 35%;
+    padding: 20px 0px 10px 10px;
+
+}
+.right-hand h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    color: #555;
+}
+.form-group{
+    margin: 4px;
+}
+.form-group .input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 2px;
+    background: transparent;
+}
+.register-form{
+    padding:30px;
+    background: #f8f8f8;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+    margin: 1%;
+    font-size: 18px;
+}
+.register-form p{
+    color: #555;
+    font-size: 13px;
+}
+.register-form .button-primary{
+    margin-top: 8px;
+    background-image: linear-gradient(to right, #ff5722, #ff9800)
+
+}
+.register-form .button-primary:hover{
+    margin-top: 8px;
+    background-image: linear-gradient(to right, #301913, #382e20)
+
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px; 
+    color: #555;
+}
+
+/*Admin CSS*/
+.admin-wrapper{
+    margin:140px 20px 20px 20x;
+
+}
+/*End of Admin CSS*/
+.flash{
+    border:1px solid #555;
+    background: #ddd;
+    width: 90%;
+    align-content: center;
+}
+.danger{
+    font-size: 12px;
+    color: brown
+}
+.success{
+    font-size: 12px;
+    color: #4CAF50;
+}
